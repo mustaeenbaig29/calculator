@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="heading">
+        <h1>CALCULATOR</h1>
+    </div>
+
+    <div class="calc">
+        <input type="text" id="screen"/>
+        
+        <div class="btn">
+            <button name="7" value="7" onclick="updatetextbox(7)">7</button>
+            <button name="8" value="8" onclick="updatetextbox(8)">8</button>
+            <button name="9" value="9" onclick="updatetextbox(9)">9</button>
+            <button name="+" value="+" onclick="updatetextbox('+')">+</button>
+            <br>
+            <button name="4" value="4" onclick="updatetextbox(4)">4</button>
+            <button name="5" value="5" onclick="updatetextbox(5)">5</button>
+            <button name="6" value="6" onclick="updatetextbox(6)">6</button>
+            <button name="-" value="-" onclick="updatetextbox('-')">-</button>
+            <br>
+            <button name="1" value="1" onclick="updatetextbox(1)">1</button>
+            <button name="2" value="2" onclick="updatetextbox(2)">2</button>
+            <button name="3" value="3" onclick="updatetextbox(3)">3</button>
+            <button name="/" value="/" onclick="updatetextbox('/')">/</button>
+            <br>
+            <button name="c" value="c" onclick="reset()">c</button>
+            <button name="0" value="0" onclick="updatetextbox(0)">0</button>
+            <button name="*" value="*" onclick="updatetextbox('*')">*</button>
+            <button name="=" value="=" onclick="result()">=</button>
+        </div>
+    </div>
+</body>
+</html>

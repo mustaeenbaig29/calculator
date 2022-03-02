@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: auto;
+    background-color: lightgray;
+}
+
+.heading h1{
+    text-align: center;
+}
+
+.calc{
+    height: 250px;
+    width: 15%;
+    margin-top: 4%;
+    margin-left: 42%;
+    background-color: white;
+}
+
+input{
+    height: 70px;
+    width: 100%;
+    background-color: red;
+    border: white;
+    text-align: right;
+    font-size: 20px;
+}
+
+.btn{
+    position: relative;
+    top: 7px;
+}
+
+button{
+    width: 20%;
+    border-radius: 40%;
+    margin-top: 8%;
+    margin-left: 2.50%;
+    border: white;
+    font-size: 20px;
+}
+
+@media screen and (max-width:1152px) {
+    .calc{
+        width: 18%;
+    }
+}
+
+@media screen and (max-width:1032px) {
+    .calc{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:792px) {
+    .calc{
+        width: 24%;
+    }
+}
+
+@media screen and (max-width:633px) {
+    .calc{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:514px) {
+    .calc{
+        width: 40%;
+    }
+}
